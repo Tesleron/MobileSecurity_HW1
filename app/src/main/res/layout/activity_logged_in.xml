@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityLoggedIn">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/login_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Login Successful"
+        android:textColor="#03A9F4"
+        android:textSize="45sp"
+
+        android:textStyle="bold">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login_BTN_tryagain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try again"
+        android:textSize="12sp"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/login_LBL_title"
+        android:textStyle="bold">
+
+    </com.google.android.material.button.MaterialButton>
+
+</RelativeLayout>
